@@ -5,7 +5,9 @@ import br.com.dio.model.Gato;
 public class PrimeiroPrograma {
     public static void main(String[] args) {
 
-        Gato gato = new Gato();
+        Gato gato = new Gato("Nicolau", "Amarelo", 10);
+
+        System.out.println(gato);
 
 /*    int a = 5;
       int b = 3;
