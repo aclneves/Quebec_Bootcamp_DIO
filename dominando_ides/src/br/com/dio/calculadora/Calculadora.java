@@ -7,7 +7,8 @@ public class Calculadora {
 
         Scanner scan = new Scanner(System.in);
 
-        int a, b;
+        int a;
+        int b;
 
         System.out.println("Digite o primeiro número: ");
         a = scan.nextInt();
